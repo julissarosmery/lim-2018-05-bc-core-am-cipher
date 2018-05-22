@@ -8,17 +8,45 @@
   <body>
     <section>
     <h3>caesar cipher</h3>
-    <h5></h5>
+    
     <hr>
 
-    <form action=""  class="formulario">
-      <input type="text"class="formulario__input">
-      <label for="" ></label>
-    </form>
-    <div style="float:left"></div>
-    <div style="float:left"></div>
-      <div>...</div>
-  </section>
+
+   
+
+
+
+<div style="float:center;">
+    <label>Plaintext:</label>
+    <br>
+    <textarea id="decrypted" placeholder="Por favor, escriba texto claro para cifrar aquí"></textarea>
+    <br>
+    <label>Ciphertext:</label>
+    <br>
+    <textarea id="encrypted" placeholder="
+Por favor, escriba texto cifrado para descifrar aquí" style="margin: 10px 0px; height: 103px; width: 398px;"></textarea>
+  <br>
+<label>texto sin formato:</label>
+<br>
+<!--con esta etique ta se crea  ..cols :nedidas/ancho  rows: largo..-->
+    <textarea id="desifrar"style="margin: 10px 0px; height: 103px; width: 398px;" ></textarea>
+</div>
+
+<div style="float:left;">
+			<label>Key:</label>
+			<br>
+			<input type="number" id="key" min="0" max="5" value="0"><br>
+			<input type="submit" onclick="encrypt()" value="Cipher"><br>
+			<input type="submit" onclick="decrypt()" value="Dechiper"><br>
+			<input type="submit" onclick="getKey()" value="Get Key"><br>
+			<input type="reset" onclick="clearBoxes()" value="Reset"><br>
+    </div>    
+<div>
+        <label>Output:</label><br>
+        <textarea id="chains" readonly=""></textarea>
+      </div>
+    
+    
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

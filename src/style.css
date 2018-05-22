@@ -1,0 +1,16 @@
+
+element.style{
+ text-shadow:0 0 black;
+
+}
+html {
+    overflow-x: hidden;
+}
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+div {
+    display: block;
+}
