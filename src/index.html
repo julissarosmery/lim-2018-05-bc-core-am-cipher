@@ -6,46 +6,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-    <h3>caesar cipher</h3>
+    <form action="">
+      <h1> cifrado Cesar</h1>
+      
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br>
+      <label >posicion:</label>
+      <input type="number" value="">
+      
+      <input type="button" value="cifrado">
+      <input type="button" value="descifrado">
+      <br>
+      <br>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
     
-    <hr>
-
-
    
-
-
-
-<div style="float:center;">
-    <label>Plaintext:</label>
-    <br>
-    <textarea id="decrypted" placeholder="Por favor, escriba texto claro para cifrar aquí"></textarea>
-    <br>
-    <label>Ciphertext:</label>
-    <br>
-    <textarea id="encrypted" placeholder="
-Por favor, escriba texto cifrado para descifrar aquí" style="margin: 10px 0px; height: 103px; width: 398px;"></textarea>
-  <br>
-<label>texto sin formato:</label>
-<br>
-<!--con esta etique ta se crea  ..cols :nedidas/ancho  rows: largo..-->
-    <textarea id="desifrar"style="margin: 10px 0px; height: 103px; width: 398px;" ></textarea>
-</div>
-
-<div style="float:left;">
-			<label>Key:</label>
-			<br>
-			<input type="number" id="key" min="0" max="5" value="0"><br>
-			<input type="submit" onclick="encrypt()" value="Cipher"><br>
-			<input type="submit" onclick="decrypt()" value="Dechiper"><br>
-			<input type="submit" onclick="getKey()" value="Get Key"><br>
-			<input type="reset" onclick="clearBoxes()" value="Reset"><br>
-    </div>    
-<div>
-        <label>Output:</label><br>
-        <textarea id="chains" readonly=""></textarea>
-      </div>
-    
     
     <div id="root"></div>
     <script src="cipher.js"></script>
