@@ -4,21 +4,30 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <form action="">
       <h1> cifrado Cesar</h1>
-      
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <hr>
+      <textarea    name="" id="cifra" cols="30" rows="5" ></textarea>
+      <br>
+      <input type="button" onclick=sifrad() id ="cifrado" value="cifrado">
+      <br>
+      <br>
+      <textarea    name="" id="decifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
+      <br>
+      <input type="button" onclick=desc() id ="descifra" value="descifrado">
+      <br>
       <br>
       <label >posicion:</label>
-      <input type="number" value="">
+      <input type="number" id="offset">
       
-      <input type="button" value="cifrado">
-      <input type="button" value="descifrado">
+      
+      
       <br>
       <br>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <textarea name="" id="respuesta" cols="30" rows="10" placeholder="aqui aparecera tu resultado"></textarea>
     </form>
     
    
