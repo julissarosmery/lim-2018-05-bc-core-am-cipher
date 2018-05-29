@@ -1,5 +1,44 @@
 
-element.style{
+/*pra darle estylo al titulo*/
+h1 {
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+    padding: 3px;
+    text-align: center;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+  }
+/*para aplicar borde*/
+  div {
+    border-top: 1px ridge rgb(0, 174, 255);
+    border-right: 1px ridge rgb(0, 174, 255);
+    border-bottom: 1px ridge rgb(0, 174, 255);
+    border-left: 1px ridge rgb(0, 174, 255);
+    text-align: center;
+   
+  }
+  h2 {
+    
+    width: 50%;
+    margin: 25%;
+    border: 1cm;
+    
+   
+  }
+
+
+     
+
+    
+
+
+
+
+  /*se pone color al body*/
+body{
+    background: mediumaquamarine;
+}
+/*element.style{
  text-shadow:0 0 black;
 
 }
