@@ -10,31 +10,43 @@
     <form action="">
       <h1> cifrado Cesar</h1>
       <hr>
+      
+      <div class="cont1">
+        
+      <textarea   class="text" name="cifra" id="cifra" cols="30" rows="5"placeholder="ingaresar texto" ></textarea>
+    
+      <input  class ="bCif"   type="button" id ="cifrado" value="cifrado">
+    
+      </div>
+
       <div>
-      <textarea    name="" id="cifra" cols="30" rows="5"placeholder="ingaresar texto" ></textarea>
-      <br>
-      <input type="button" onclick=sifrad() id ="cifrado" value="cifrado">
-      <br>
-      <br>
       <textarea    name="" id="decifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
-      <br>
-      <input type="button" onclick=desc() id ="descifra" value="descifrado">
-      <br>
-      <br>
+      
+      <input class= "bDesc"  type="button" onclick=desc() id ="descifra" value="descifrado">
+      </div>
+
+      <div>
+
       <label >posicion:</label>
+      
       <input type="number" id="offset">
+      
+      
     </div>
       
       
-      <br>
-      <br>
+      
+      
       <h2 id="respuesta"> 
-        <p >Aqui obtendras tus respuestas:</p>
+        
       </h2>
+    
+      
     </form>
     
    
     
+
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
