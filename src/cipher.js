@@ -7,6 +7,8 @@
       let codCipher='';
       //esto se lee i=va a comensar en 0 i= va a ser mayor o igual que  i= va a avanzar de uno en uno.
       for (let i=0; i<string.length; i++){
+     // if(string[i]!=''){
+        
         //a es el codigo ascii
         let a=string.charCodeAt(i);
         //if= si..a es mayor o igual y menor o igual que
@@ -21,16 +23,22 @@
           let y=(a-97+offset)%26+97;
            codCipher=codCipher+String.fromCharCode(y);//parapasarlo de numeros a letras 
         }
+          //else {
+              //codCipher +='';
+          //}
+          
          //si es igual
-        if(a==32){
-          let space="";
-          codCipher+=space;
-        }
+        //else(a==32){
+          //let space="";
+          //codCipher+=space;
+        
         }
         //regresa
         return codCipher;
-      
+    
+    
       },
+
       decode:  (string, offset) => {
         //pasrseIn para especificar numeros enteros
         offset=parseInt(offset);
