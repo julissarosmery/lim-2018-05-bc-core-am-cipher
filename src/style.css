@@ -1,7 +1,7 @@
 
 /*pra darle estylo al titulo*/
 h1 {
-    color: red;
+    color: rgb(119, 0, 255);
     text-shadow: 1px 1px 1px black;
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
     padding: 3px;
@@ -24,7 +24,7 @@ h1 {
     text-align: center;
     position: relative;
     margin-left: 25%;
-    background-color: red;
+    background-color: rgb(255, 251, 0);
     width: 50%;
     height: 900%;
 
