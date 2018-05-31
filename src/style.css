@@ -1,32 +1,56 @@
-
+/*para darle color a todo*/
+body{
+    background: mediumaquamarine;
+}
 /*pra darle estylo al titulo*/
 h1 {
+    /*para darle color al titulo*/
     color: rgb(119, 0, 255);
+    /*para sombrearla letra de el titulo*/
     text-shadow: 1px 1px 1px black;
+    /*sombreafdo casi tramsparente del titulo*/
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
-    /*padding: 3px;*/
+    /*padding: 3px;
+    /*para centrar el titulo*/
     text-align: center;
-    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+    /*para darle bolumen an titulo*/
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);*/
   }
 /*para aplicar borde*/
-  div {
+  form {
+      /*borde arriba*/
     border-top: 1px ridge rgb(0, 174, 255);
+    /*borde derecho*/
     border-right: 1px ridge rgb(0, 174, 255);
+    /*borde de abajo*/
     border-bottom: 1px ridge rgb(0, 174, 255);
+    /*borde izquierdo*/
     border-left: 1px ridge rgb(0, 174, 255);
+    /*para centrar contenido dentro del form*/
     text-align: center;
     }
-    
     .text{
-    text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
     }
+    .bDesc{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+     /*se adiciona un . para llamar al text al cual se le añadio un class como identidad*/
+    /*.text{
+    /*text-align: center;
+    }*/
     h2 {
-    text-align: center;
-    position: relative;
+    /*text-align: center;*/
+    /*position: relative;*/
+    /*para que el resultado se muestre en el medio*/
     margin-left: 25%;
+    /*para darle color a la respuesta*/
     background-color: rgb(255, 251, 0);
     width: 50%;
-    height: 900%;
+    /*height: 900%;*/
 
     }
     .butto{
@@ -45,9 +69,7 @@ h1 {
      
 
   /*se pone color al body*/
-body{
-    background: mediumaquamarine;
-}
+
 /*element.style{
  text-shadow:0 0 black;
 
