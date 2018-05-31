@@ -1,4 +1,7 @@
   window.cipher = {
+    //createCipherWithOffset() {
+     // return NaN
+    //},
 
     encode:  (string, offset) => {
       //pasrseIn para especificar numeros enteros
