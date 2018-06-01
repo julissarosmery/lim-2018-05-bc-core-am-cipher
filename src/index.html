@@ -10,50 +10,29 @@
   <body>
     <form action="">
       <h1> cifrado Cesar</h1>
-      <hr>
-      
-      
+       <hr>
         <div>
-      <textarea class="text" name="cifra" id="cifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
-       
-       </div>
-       <div>
-      <input class ="bCif"   type="button" id ="cifrado"  value="cifrado">
-    
-       </div>
+          <textarea class="text" name="cifra" id="cifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
+        </div>
+        <div>
+          <input class ="bCif"   type="button" id ="cifrado"  value="cifrado">
+        </div>
+        <div>
+          <textarea class="text" name="" id="decifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
+        </div>
+        <div>
+          <input class= "bDesc"  type="button"  id ="descifra" value="descifrado">
+        </div>
+        <div>
+          <label >posicion:</label>
+          <input type="number" id="offset">
+        </div>
+        <h2 id="respuesta">
 
-       <div>
-      <textarea class="text" name="" id="decifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
-       </div>
-       <div>
-      <input class= "bDesc"  type="button"  id ="descifra" value="descifrado">
-        </div>  
-        
-
-       <div>
-
-      <label >posicion:</label>
-      
-      <input type="number" id="offset">
-      
-      
-      </div>
-      
-      
-      
-      
-      <h2 id="respuesta"> 
-        
-      </h2>
-    
-      
+        </h2>
     </form>
-    
-   
-    
-
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+      <div id="root"></div>
+      <script src="cipher.js"></script>
+      <script src="index.js"></script>
   </body>
 </html>
