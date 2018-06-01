@@ -1,5 +1,5 @@
  window.cipher = {
-  encode:  (string, offset) => {
+  encode:  (offset,string) => {
      let codCipher=''; //mostrar cifra codificada
      for (let i=0; i<string.length; i++){ //esto se lee el  contador  i=va a comensar en 0 i= va a ser mayor o igual que  i= va a avanzar de uno en uno.
       let a=string.charCodeAt(i);//a es el codigo ascii
@@ -16,7 +16,7 @@
      }
      return codCipher;//respuesta
   },
-  decode:  (string, offset) => {
+  decode:  (offset,string) => {
     let decodCipher='';//mostrar cifra decodificada
     for (let i=0; i<string.length; i++){//for= para ..esto se lee el contador  i=va a comensar en 0 i= va a ser mayor o igual que  i= va a avanzar de uno en uno.
       let a=string.charCodeAt(i); //a es codigo asccii
@@ -34,8 +34,15 @@
       }
       return decodCipher;//regresa
     },
-    createCipherWithOffset: () =>{
-
+   
+    
+    createCipherWithOffset: (offset) =>{
+      let retornar ={
+        encode:(string)=>{return cipher.encode(offset,string);
+        },
+        decode:(string)=>{return cipher.decode(offset,string);
+        }
+      };
+      return retornar;
     }
-
   };
