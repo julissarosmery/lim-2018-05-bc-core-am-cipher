@@ -10,26 +10,29 @@
   <body>
     <form action="">
       <h1> cifrado Cesar</h1>
+      <p>En esta plataforma podras codificar y decodificar tus mensajes secretos</p>
+
        <hr>
         <div>
-          <textarea class="text" name="cifra" id="cifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
+          <textarea class="text" name="cifra" id="cifra" cols="30" rows="5" placeholder="ingresa aqui el texto que quieras cifrar" ></textarea>
         </div>
         <div>
           <input class ="bCif"   type="button" id ="cifrado"  value="cifrado">
         </div>
         <div>
-          <textarea class="text" name="" id="decifra" cols="30" rows="5" placeholder="ingaresar texto" ></textarea>
+          <textarea class="text" name="" id="decifra" cols="30" rows="5" placeholder="ingresa aqui el texto que quieras decifrar" ></textarea>
         </div>
         <div>
           <input class= "bDesc"  type="button"  id ="descifra" value="descifrado">
         </div>
         <div>
-          <label >posicion:</label>
+          <label >Elije tu llave secreta(recuerda que debe ser el mismo numero para cifrar y descifrar):</label>
           <input type="number" id="offset">
         </div>
-        <h2 id="respuesta">
+        <h2 id="respuesta">aqui aparecera tu mensaje secreto
 
         </h2>
+        <h6 >Creado por julissa ibarra (laboratoria... talento que transforma)</h6>
     </form>
       <div id="root"></div>
       <script src="cipher.js"></script>
