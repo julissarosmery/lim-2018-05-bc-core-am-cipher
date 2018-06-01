@@ -13,8 +13,8 @@
       }else {
         codCipher+= string[i]; //de lo contrario el codigo cifrado es igual al codigo cifrado de el contador 
       }
-    }
-    return codCipher;//respuesta
+     }
+     return codCipher;//respuesta
   },
   decode:  (string, offset) => {
     let decodCipher='';//mostrar cifra decodificada
@@ -27,13 +27,15 @@
       else if(a>=97 && a<=122){ //if= si..a es mayor o igual y menor o igual que
         let y=((a+97-parseInt(offset))-12)%26+97; //y =ninusculas
          decodCipher=decodCipher+String.fromCharCode(y);//parapasarlo de numeros a letras
-        }
+      }
         else {//si es igual
           decodCipher+= string[i];
         }
       }
       return decodCipher;//regresa
-    }
-  };
-      
+    },
+    createCipherWithOffset: () =>{
 
+    }
+
+  };
