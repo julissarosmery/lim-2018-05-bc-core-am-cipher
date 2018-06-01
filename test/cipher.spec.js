@@ -52,23 +52,21 @@ describe('cipher', () => {
     it('debería ser una función', () => {
       assert.equal(typeof cipher.createCipherWithOffset, 'function');
     });
-    
 
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado',()=>{
-      assert.equal(typeof cipher.createCipherWithOffset,'objet');
-      assert.equal( cipher.createCipherWithOffset,'encode');
-      assert.equal(cipher.createCipherWithOffset,'decode');
-      assert.equal(cipher.createCipherWithOffset,'');
+      assert.equal(typeof cipher.createCipherWithOffset(),'object');
+      assert.equal(typeof cipher.createCipherWithOffset().decode,'function');
+      assert.equal(typeof cipher.createCipherWithOffset().encode,'function');
+    });
+    
+    it('debería retornar "b" para "a" con offest 1', () => {
+      assert.equal(cipher.createCipherWithOffset(1).encode('a'),'b');
+
+    });
+    it('debería retornar "a" para "b" con offest 1', () => {
+      assert.equal(cipher.createCipherWithOffset(1).decode('b'),'a');
+
     });
 
-    
-
-
-
-
-
-
-  }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
   });
-
 

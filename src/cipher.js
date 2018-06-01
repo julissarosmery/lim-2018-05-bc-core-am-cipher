@@ -37,12 +37,10 @@
    
     
     createCipherWithOffset: (offset) =>{
-      let retornar ={
-        encode:(string)=>{return cipher.encode(offset,string);
-        },
-        decode:(string)=>{return cipher.decode(offset,string);
-        }
-      };
-      return retornar;
-    }
-  };
+    let retornar ={
+     encode:(string) =>cipher.encode(offset,string),
+     decode:(string) =>cipher.decode(offset,string)
+     }
+     return retornar;
+  }
+};
