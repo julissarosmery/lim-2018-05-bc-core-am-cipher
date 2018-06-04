@@ -33,8 +33,8 @@
         }
       }
       return decodCipher;//regresa
-    }
-  };
+    },
+  
     
     createCipherWithOffset: (offset) =>{
     let retornar ={
@@ -42,4 +42,5 @@
      decode:(string) =>cipher.decode(offset,string),
      }
      return retornar;
-  };
+  }
+};
