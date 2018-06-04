@@ -8,5 +8,12 @@ del alfabeto una a una .
 ## veamos un video para ver de que se trata:
 [![sifrado ceasr](https://img.youtube.com/vi/9oGHiEvrTxQ/0.jpg)](https://www.youtube.com/watch?v=9oGHiEvrTxQ)
 
-https://julissarosmery.github.io/lim-2018-05-bc-core-am-cipher/src/
+- aquie esta el prototipo en su face final:https://julissarosmery.github.io/lim-2018-05-bc-core-am-cipher/src/;aunque
+siempre se pueden hacer mejoras.
+
+## El proyecto contiene:
+- index.html: el cual contiene laestructura del proyecto.
+- index.js: el cual contiene la dinamica del proyecto.
+- style.css:que contiene cdigos que modifican el diceño,tamaño,espacio,color,etc del proyecto.
+- cipher.js :es un archivo adicional que se usa para crear una formula ;la cual a su vez es sumamente independiente del archivo es decir se piede aplicar a otros formatos.
 
