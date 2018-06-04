@@ -18,8 +18,7 @@ del alfabeto una a una .
 ![kanbak](https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34392720_1653316038055208_4619076312819040256_n.png?_nc_cat=0&oh=e4e9b4e923edfb02aa29dd48f5a3409e&oe=5BB87164)
 
 
-### Aqui esta el prototipo en su face final:https://julissarosmery.github.io/lim-2018-05-bc-core-am-cipher/src/ ; aunque
-siempre se pueden hacer mejoras.
+### Aqui esta el prototipo en su face final:https://julissarosmery.github.io/lim-2018-05-bc-core-am-cipher/src/ ; aunque siempre se pueden hacer mejoras.
 
 ## El proyecto contiene:
 - index.html: el cual contiene la estructura del proyecto.
