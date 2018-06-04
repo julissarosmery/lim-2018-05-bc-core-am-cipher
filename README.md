@@ -7,3 +7,6 @@ del alfabeto una a una . (descripcion)
 ![cifardo sesar](https://informaticaseguraupc.files.wordpress.com/2014/09/cifrado-cesar.png)
 
 [![sifrado ceasr](https://www.youtube.com/watch?v=9oGHiEvrTxQ)](https://www.youtube.com/watch?v=9oGHiEvrTxQ)
+
+
+[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
