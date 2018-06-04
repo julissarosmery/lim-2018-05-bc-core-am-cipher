@@ -11,7 +11,7 @@ del alfabeto una a una .
 
 
 - Aqui esta el protitipo en su face inicial
-![face inicial]https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34274616_1653305058056306_7852859058011766784_n.jpg?_nc_cat=0&oh=921b5b63eee3920c448a947920b27ae5&oe=5BB08899
+![face inicial](https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34274616_1653305058056306_7852859058011766784_n.jpg?_nc_cat=0&oh=921b5b63eee3920c448a947920b27ae5&oe=5BB08899)
 
 - Aqui esta el prototipo en su face final:https://julissarosmery.github.io/lim-2018-05-bc-core-am-cipher/src/ ; aunque
 siempre se pueden hacer mejoras.
