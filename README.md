@@ -17,3 +17,4 @@ siempre se pueden hacer mejoras.
 - style.css: que contiene cdigos que modifican el diceño,tamaño,espacio,color,etc; del proyecto.
 - cipher.js : es un archivo adicional que se usa para crear una formula ;la cual a su vez es sumamente independiente del archivo es decir se puede aplicar a otros formatos.
 
+https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34274616_1653305058056306_7852859058011766784_n.jpg?_nc_cat=0&oh=921b5b63eee3920c448a947920b27ae5&oe=5BB08899
