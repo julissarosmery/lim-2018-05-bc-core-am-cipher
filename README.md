@@ -10,14 +10,15 @@ del alfabeto una a una .
 
 
 
-- Aqui esta el protitipo en su face inicial
+### Aqui esta el protitipo en su face inicial:
+
 ![face inicial](https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34318342_1653313044722174_632805238553706496_n.png?_nc_cat=0&oh=23ce34efc2da2645d348b5248d55df49&oe=5B83E089)
-- proceso:
-metodo kanbak:
+### proceso:
+- metodo kanbak
 ![kanbak](https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34392720_1653316038055208_4619076312819040256_n.png?_nc_cat=0&oh=e4e9b4e923edfb02aa29dd48f5a3409e&oe=5BB87164)
 
 
-- Aqui esta el prototipo en su face final:https://julissarosmery.github.io/lim-2018-05-bc-core-am-cipher/src/ ; aunque
+### Aqui esta el prototipo en su face final:https://julissarosmery.github.io/lim-2018-05-bc-core-am-cipher/src/ ; aunque
 siempre se pueden hacer mejoras.
 
 ## El proyecto contiene:
