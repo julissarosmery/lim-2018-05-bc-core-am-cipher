@@ -1,55 +1,41 @@
  <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Data Dashboard</title>
-  <link rel="stylesheet" href="style.css" />
-  <img src="https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg" alt="" width="300" >
+  </head>
+  <body>
+    <form action="">
+      <h1> cifrado Cesar</h1>
+      <p>En esta plataforma podras codificar y decodificar tus mensajes secretos</p>
 
-</head>
+       <hr>
+        <div>
+          <textarea class="text" name="cifra" id="cifra" cols="30" rows="5" placeholder="ingresa aqui el texto que quieras cifrar" ></textarea>
+        </div>
+        <div>
+          <input class ="bCif"   type="button" id ="cifrado"  value="cifrado">
+        </div>
+        <div>
+          <textarea class="text" name="" id="decifra" cols="30" rows="5" placeholder="ingresa aqui el texto que quieras decifrar" ></textarea>
+        </div>
+        <div>
+          <input class= "bDesc"  type="button"  id ="descifra" value="descifrado">
+        </div>
+        <div>
+          <label >Elije tu llave secreta(recuerda que debe ser el mismo numero para cifrar y descifrar):</label>
+          <input type="number" id="offset">
+        </div>
+        <h2 id="respuesta">aqui aparecera tu mensaje secreto
 
-<body>
-
-  <div id="header">
-    <ul class="nav">
-      <li id="formulario">SEDES:
-        <ul id="sedes">
-          <li id="lim">Lima</li>
-          <li id="cdmx">Ciudad De Mexico</li>
-          <li id="aqp">Arequipa</li>
-          <li id="scl">Santiago De Chile</li>
-          <li id="spl">Sao Paulo</li>
-          <li id="gdl">Guadalajara</li>
-
-        </ul>
-      </li>
-    </ul>
-  </div>
-
-  <div id="cohorts" class="ventanitas">
-    <div id="mostrarCohorts" class="cuadros"></div>
-  </div>
-
-  <div id="users" >
-    <div id="mostrarUsers" class="cuadroUsers"></div>
-  </div>
-
-  <div>
-    <div id="mostrarProgress" class="cuadrosProgress"></div>
-  </div>
-
-
-  <script src="main.js"></script>
-  <script src="data.js"></script>
-
-</body>
-
-</html> 
-
-
-
-
-
-
-
+        </h2>
+        <h6 >Creado por julissa ibarra (laboratoria... talento que transforma)</h6>
+    </form>
+      <div id="root"></div>
+      <script src="cipher.js"></script>
+      <script src="index.js"></script>
+  </body>
+</html>
